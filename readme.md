@@ -87,24 +87,6 @@ php -S localhost:8000
 
 Buka browser ke `http://localhost:8000/index.php`
 
-## Screenshot Aplikasi
-
-**Daftar Produk (list + JOIN kategori & supplier + pagination)**
-
-![Daftar Produk](screenshots/01-daftar-produk.png)
-
-**Tambah Produk (flash message sukses)**
-
-![Tambah Produk](screenshots/02-tambah-produk-berhasil.png)
-
-**Fitur Pencarian**
-
-![Pencarian](screenshots/03-pencarian.png)
-
-**Edit Produk (form pre-filled)**
-
-![Edit Produk](screenshots/04-edit-produk.png)
-
 ## Catatan Keamanan
 
 - Semua query pakai **prepared statement**, baik untuk SELECT, INSERT, UPDATE, maupun DELETE — nggak ada string SQL yang digabung langsung dari `$_POST`/`$_GET`
